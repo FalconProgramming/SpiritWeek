@@ -41,14 +41,3 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-
-# Unity editor Files
-.DS_Store
-Library
-Library/*
-*.csproj
-*.sln
-*.userprefs
-Temp
-*.pidb
-Build
