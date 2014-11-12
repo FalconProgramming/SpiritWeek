@@ -1,7 +1,0 @@
-﻿#pragma strict
-
-
-
-function Update () {
-
-}
