@@ -1,17 +1,13 @@
 ﻿#pragma strict
 
-var playerObject = GameObject.Find("Hero");
-var playerPos:Vector3 = playerObject.transform.position;
-
-function Update () {
-
-}
-
+var player : Transform;
+var teacher : Transform;
+var distance : float = 5;
 
 function OnGUI () {
-    if (GUI.Button (Rect (10,70, 100, 20), "Player's position")) {
-        print ("text");
-    }
-    GUI.Box (Rect (10,10,150,20), "This is a text box.");
 
+if (Vector3.Distance(player.position,teacher.position)<=distance) {
+	 GUI.Box(Rect(25,200,556,70),"asdfghjkl");
+
+}
 }
