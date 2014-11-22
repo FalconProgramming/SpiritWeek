@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\BackAndForthMovement.js" />
      <Compile Include="Assets\Bookbag.js" />
+     <Compile Include="Assets\Grade.js" />
      <Compile Include="Assets\TeacherCollisionSound.js" />
      <Compile Include="Assets\Test Stuff\Audio.js" />
      <Compile Include="Assets\Test Stuff\InventoryManager.js" />
