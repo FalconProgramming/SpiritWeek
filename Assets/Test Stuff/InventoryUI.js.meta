@@ -1,8 +1,11 @@
 fileFormatVersion: 2
-guid: 3541505cc972f5a47b00c9d128ea28b0
+guid: f016611037a36f344b6b666697fc5698
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - pencil: {fileID: 2800000, guid: 47261f25d3f93c442b0cf5d5720a18ea, type: 3}
+  - ruler: {fileID: 2800000, guid: 5a2e93276fadd2741b17f996348b801d, type: 3}
+  - textbook: {fileID: 2800000, guid: 23d88c98c11b2ad40979b17fac8ca264, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
