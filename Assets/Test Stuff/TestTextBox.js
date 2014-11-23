@@ -7,7 +7,7 @@ var distance : float = 5;
 function OnGUI () {
 
 if (Vector3.Distance(player.position,teacher.position)<=distance) {
-	 GUI.Box(Rect(25,200,556,70),"asdfghjkl");
+	 GUI.Box(Rect(0,Screen.height - 50,Screen.width,48),"asdfghjkl");
 
 }
 }
