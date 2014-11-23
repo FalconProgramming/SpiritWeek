@@ -5,7 +5,7 @@ var moveDown : KeyCode;
 var moveLeft : KeyCode;
 var moveRight : KeyCode;
 
-var speed : float = 10;
+static var speed : float = 10;
 static var frozen : boolean;
 
 function Update () {

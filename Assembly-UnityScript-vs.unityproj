@@ -46,18 +46,20 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BackAndForthMovement.js" />
-     <Compile Include="Assets\TeacherCollisionSound.js" />
      <Compile Include="Assets\Test Stuff\Audio.js" />
+     <Compile Include="Assets\Test Stuff\BackAndForthMovement.js" />
      <Compile Include="Assets\Test Stuff\InventoryManager.js" />
      <Compile Include="Assets\Test Stuff\Movement.js" />
      <Compile Include="Assets\Test Stuff\Pencil.js" />
      <Compile Include="Assets\Test Stuff\Ruler.js" />
      <Compile Include="Assets\Test Stuff\Secret.js" />
+     <Compile Include="Assets\Test Stuff\SpeedBoost.js" />
+     <Compile Include="Assets\Test Stuff\SpeedBoostAudioScript.js" />
      <Compile Include="Assets\Test Stuff\TeacherCollision.js" />
+     <Compile Include="Assets\Test Stuff\TeacherCollisionSound.js" />
      <Compile Include="Assets\Test Stuff\TestTextBox.js" />
      <Compile Include="Assets\Test Stuff\Textbook.js" />
-     <Compile Include="Assets\mainCameraMovement.js" />
+     <Compile Include="Assets\Test Stuff\mainCameraMovement.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
