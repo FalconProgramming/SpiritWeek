@@ -46,10 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BackAndForthMovementInTheY.js" />
      <Compile Include="Assets\Grade.js" />
      <Compile Include="Assets\Test Stuff\Audio.js" />
      <Compile Include="Assets\Test Stuff\BackAndForthMovement.js" />
+     <Compile Include="Assets\Test Stuff\BackAndForthMovementInTheY.js" />
      <Compile Include="Assets\Test Stuff\Bookbag.js" />
      <Compile Include="Assets\Test Stuff\InventoryManager.js" />
      <Compile Include="Assets\Test Stuff\InventoryUI.js" />
@@ -67,8 +67,8 @@
      <Compile Include="Assets\Test Stuff\TestLevel.js" />
      <Compile Include="Assets\Test Stuff\TestTextBox.js" />
      <Compile Include="Assets\Test Stuff\Textbook.js" />
+     <Compile Include="Assets\Test Stuff\TimerGUI.js" />
      <Compile Include="Assets\Test Stuff\mainCameraMovement.js" />
-     <Compile Include="Assets\TimerGUI.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
