@@ -1,6 +1,6 @@
 ﻿#pragma strict
 
 
-static var pencil : int = 0;
-static var essay : int = 0;
-static var secret : int = 0;
+static var pencil : float = 0;
+static var essay : float = 0;
+static var secret : float = 0;

@@ -6,9 +6,15 @@ function OnTriggerEnter2D (collision : Collider2D) {
 	if (collision.tag == "Player") {
 		collision.rigidbody2D.velocity = Vector2.zero;
 		if (Bookbag.bookbag) {
-		if (InventoryManager.pencil > 0 && InventoryManager.essay > 0) {
-		InventoryManager.pencil -= 1;
-		InventoryManager.essay -= 1;
+		if (InventoryManager.pencil > 1f && InventoryManager.essay > 1f) {
+		InventoryManager.pencil -= 2f;
+		InventoryManager.essay -= 2f;
+		}
+		else if (InventoryManager.pencil > 1f) {
+		InventoryManager.pencil -= 2f;
+		}
+		else if (InventoryManager.essay > 1f) {
+		InventoryManager.essay -= 2f;
 		}
 		else if (InventoryManager.pencil > 0f) {
 		InventoryManager.pencil -= 1f;
@@ -16,10 +22,10 @@ function OnTriggerEnter2D (collision : Collider2D) {
 		else if (InventoryManager.essay > 0f) {
 		InventoryManager.essay -= 1f;
 		}
-		else if (InventoryManager.pencil <= 0 && InventoryManager.essay <= 0) {
+		else if (InventoryManager.pencil <= 0f && InventoryManager.essay <= 0f) {
 		Bookbag.bookbag = false;
-		InventoryManager.pencil = 0;
-		InventoryManager.essay = 0;
+		InventoryManager.pencil = 0f;
+		InventoryManager.essay = 0f;
 		Application.LoadLevel ("Game Over");
 		}
 		}

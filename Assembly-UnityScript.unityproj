@@ -50,12 +50,15 @@
      <Compile Include="Assets\Test Stuff\BackAndForthMovement.js" />
      <Compile Include="Assets\Test Stuff\BackAndForthMovementInTheY.js" />
      <Compile Include="Assets\Test Stuff\Bookbag.js" />
-     <Compile Include="Assets\Test Stuff\Collision.js" />
+     <Compile Include="Assets\Test Stuff\BossCollision.js" />
+     <Compile Include="Assets\Test Stuff\BullyCollision.js" />
+     <Compile Include="Assets\Test Stuff\EntranceToLevelClearScreen.js" />
      <Compile Include="Assets\Test Stuff\Essay.js" />
      <Compile Include="Assets\Test Stuff\Grade for level one.js" />
      <Compile Include="Assets\Test Stuff\Grade.js" />
      <Compile Include="Assets\Test Stuff\InventoryManager.js" />
      <Compile Include="Assets\Test Stuff\InventoryUI.js" />
+     <Compile Include="Assets\Test Stuff\LevelNumber.js" />
      <Compile Include="Assets\Test Stuff\LevelSelect.js" />
      <Compile Include="Assets\Test Stuff\LevelSelectGUI.js" />
      <Compile Include="Assets\Test Stuff\Movement.js" />
