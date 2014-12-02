@@ -29,7 +29,7 @@ else if (InventoryManager.secret == 2) {
 GUI.Box (Rect(Screen.width/2-50,250,155,30), "Grade: A++");
 }
 
-if (GUI.Button (Rect(Screen.width/2+30,300,155,30), "Next Level: Red and Blue Day")) {
+if (GUI.Button (Rect(Screen.width/2+30,300,155,30), "Red and Blue Day")) {
 InventoryManager.pencil = 0;
 InventoryManager.essay = 0;
 Application.LoadLevel(LevelSelect.lastLevelPlayed + 1);
