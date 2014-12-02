@@ -4,6 +4,7 @@ function Start () {
 
 	InventoryManager.pencil = 0;
 	InventoryManager.essay = 0;
+	Bookbag.bookbag = false;
 
 	if (Application.loadedLevelName == "College Day (1)")
 	LevelSelect.lastLevelPlayed = 1;

@@ -61,6 +61,7 @@
      <Compile Include="Assets\Test Stuff\LevelNumber.js" />
      <Compile Include="Assets\Test Stuff\LevelSelect.js" />
      <Compile Include="Assets\Test Stuff\LevelSelectGUI.js" />
+     <Compile Include="Assets\Test Stuff\LevelStart.js" />
      <Compile Include="Assets\Test Stuff\Movement.js" />
      <Compile Include="Assets\Test Stuff\Pencil.js" />
      <Compile Include="Assets\Test Stuff\RetryPrompt.js" />
