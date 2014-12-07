@@ -57,6 +57,10 @@
      <Compile Include="Assets\Test Stuff\GameOverNo.js" />
      <Compile Include="Assets\Test Stuff\GameOverYes.js" />
      <Compile Include="Assets\Test Stuff\GameStartButton.js" />
+     <Compile Include="Assets\Test Stuff\GoToCostumeDay.js" />
+     <Compile Include="Assets\Test Stuff\GoToNeonDay.js" />
+     <Compile Include="Assets\Test Stuff\GoToRedAndBlueDay.js" />
+     <Compile Include="Assets\Test Stuff\GoToThrowbackDay.js" />
      <Compile Include="Assets\Test Stuff\Grade for level one.js" />
      <Compile Include="Assets\Test Stuff\Grade.js" />
      <Compile Include="Assets\Test Stuff\InventoryManager.js" />
