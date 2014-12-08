@@ -9,7 +9,7 @@ function Start ()
 	timer = 30f;
 	
 	if (Application.loadedLevelName == "red and blue day")
-	timer = 45f;
+	timer = 55f;
 	
 	if (Application.loadedLevelName == "throw back day")
 	timer = 45f;
