@@ -2,7 +2,20 @@
 static var timer : float;
 function Start ()
 {
+	if (Application.loadedLevelName == "College Day")
 	timer = 30f;
+	
+	if (Application.loadedLevelName == "costume day")
+	timer = 30f;
+	
+	if (Application.loadedLevelName == "red and blue day")
+	timer = 45f;
+	
+	if (Application.loadedLevelName == "throwback day")
+	timer = 45f;
+	
+	if (Application.loadedLevelName == "NEON DAY")
+	timer = 45f;
 }
 
 function Update ()
