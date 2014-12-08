@@ -52,6 +52,7 @@
      <Compile Include="Assets\Test Stuff\Bookbag.js" />
      <Compile Include="Assets\Test Stuff\BossCollision.js" />
      <Compile Include="Assets\Test Stuff\BullyCollision.js" />
+     <Compile Include="Assets\Test Stuff\ColliderrS.js" />
      <Compile Include="Assets\Test Stuff\EntranceToLevelClearScreen.js" />
      <Compile Include="Assets\Test Stuff\Essay.js" />
      <Compile Include="Assets\Test Stuff\GameOverNo.js" />
