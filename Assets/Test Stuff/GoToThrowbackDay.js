@@ -2,6 +2,6 @@
 
 function Go () {
 
-	Application.LoadLevel("throwback day");
+	Application.LoadLevel("throw back day");
 	
 }

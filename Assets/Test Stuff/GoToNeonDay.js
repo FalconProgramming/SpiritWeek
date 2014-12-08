@@ -2,6 +2,6 @@
 
 function Go () {
 
-	Application.LoadLevel("neon day");
+	Application.LoadLevel("NEON DAY");
 	
 }
