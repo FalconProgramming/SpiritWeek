@@ -11,7 +11,7 @@ function Start ()
 	if (Application.loadedLevelName == "red and blue day")
 	timer = 45f;
 	
-	if (Application.loadedLevelName == "throwback day")
+	if (Application.loadedLevelName == "throw back day")
 	timer = 45f;
 	
 	if (Application.loadedLevelName == "NEON DAY")
