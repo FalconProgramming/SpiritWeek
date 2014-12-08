@@ -2,6 +2,6 @@
 
 public function StartGame () {
 
-	Application.LoadLevel("College Day (1)"); 
+	Application.LoadLevel("College Day"); 
 	
 }
