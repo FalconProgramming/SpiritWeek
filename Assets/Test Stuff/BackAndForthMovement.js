@@ -4,7 +4,7 @@ var speed : float = 5;
 var timeset : float;
 var timer : float = timeset;
 
-function Update ()
+function FixedUpdate ()
 {
 	
 	timer -= Time.deltaTime;
