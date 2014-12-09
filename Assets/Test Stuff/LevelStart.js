@@ -12,12 +12,12 @@ function Start () {
 	if (Application.loadedLevelName == "costume day")
 	LevelSelect.lastLevelPlayed = 3;
 
-	if (Application.loadedLevelName == "red and blue day")
+	if (Application.loadedLevelName == "throw back day")
 	LevelSelect.lastLevelPlayed = 5;	
 	
-	if (Application.loadedLevelName == "throw back day")
+	if (Application.loadedLevelName == "NEON DAY")
 	LevelSelect.lastLevelPlayed = 7;
 	
-	if (Application.loadedLevelName == "NEON DAY")
+	if (Application.loadedLevelName == "red and blue day")
 	LevelSelect.lastLevelPlayed = 9;
 }
