@@ -15,7 +15,7 @@ function Start ()
 	timer = 45f;
 	
 	if (Application.loadedLevelName == "NEON DAY")
-	timer = 25f;
+	timer = 20f;
 }
 
 function Update ()
